@@ -17,3 +17,5 @@ fields:
   config:
     required: true
   label: URL
+pages:
+- _posts/Advanced Custom Fields.md
