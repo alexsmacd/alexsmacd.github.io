@@ -6,3 +6,6 @@ theme: jekyll-theme-dinky
 title: Apps
 description: A quick reference for frequently used tools.
 show_downloads: false
+
+collections:
+  - items
