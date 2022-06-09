@@ -7,5 +7,5 @@
 
 {% for item in site.items %}
   <h4>{{ item.name }}</h4>
-  <a href="{{ item.url }}" target="_blank"><img src="{{ item.thumb }}" /></a>
+  <a href="{{ item.link }}" target="_blank"><img src="{{ item.thumb }}" /></a>
 {% endfor %}
