@@ -4,3 +4,4 @@ description: A quick reference for frequently used tools.
 
 collections:
   - items
+  - plugins
