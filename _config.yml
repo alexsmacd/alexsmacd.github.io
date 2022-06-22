@@ -1,11 +1,6 @@
-remote_theme: pages-themes/minima@v2.5.1
-plugins:
-- jekyll-remote-theme
-
-theme: jekyll-theme-minima
+theme: minima
 title: Apps
 description: A quick reference for frequently used tools.
-show_downloads: false
 
 collections:
   - items
