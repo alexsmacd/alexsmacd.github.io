@@ -1,6 +1,6 @@
---
+---
 permalink: /plugins/
---
+---
 
 {% for plugin in site.plugins %}
   <h4>{{ plugin.name }}</h4>
