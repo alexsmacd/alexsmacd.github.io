@@ -3,10 +3,10 @@ title: Themes
 permalink: /themes/
 ---
 
-<ul>
+<div id="content">
 {% for theme in site.themes %}
-<li>
-  <h3>{{ theme.name }} <a href="{{ theme.link }}" target="_blank"><img src="../assets/link-sm.png"></a></h3>
-</li>
+<h3><a href="{{ theme.link }}" target="_blank">{{ theme.name }}</a></h3>
+<a href="{{ theme.link }}" target="_blank"><img src="{{ theme.thumb }}"></a>
+<hr>
 {% endfor %}
-</ul>
+</div>
