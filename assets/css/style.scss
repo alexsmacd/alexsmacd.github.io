@@ -1,3 +1,10 @@
+---
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
