@@ -4,13 +4,3 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
-.grid-item {
-    padding: 10px;
-    text-align: center;
-}
