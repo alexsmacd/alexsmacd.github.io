@@ -2,5 +2,15 @@
 ---
 
 @import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/skins/classic",
   "minima/initialize";
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-items {
+    padding: 5px;
+    text-align: center;
+}
