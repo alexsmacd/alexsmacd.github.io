@@ -1,4 +1,4 @@
-theme: minima
+remote-theme: minima
 title: Apps
 description: A quick reference for frequently used tools.
 permalink: /:categories/:year/:month/:day/:title:output_ext
