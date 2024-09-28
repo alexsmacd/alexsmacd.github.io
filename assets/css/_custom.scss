@@ -1,0 +1,10 @@
+/* in _custom.scss */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-items {
+    padding: 5px;
+    text-align: center;
+}
