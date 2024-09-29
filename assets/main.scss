@@ -1,9 +1,15 @@
+---
+---
+
+@import "minima";
+
+/* Custom Grid Styles */
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
 }
 
-.grid-item {
-    padding: 10px;
+.grid-items {
+    padding: 5px;
     text-align: center;
 }
