@@ -6,7 +6,9 @@
 /* Custom Grid Styles */
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-auto-columns: calc(50% - 10px);
+    grid-auto-flow: column;
+    grid-gap: 10px 10px;
 }
 
 .grid-items {
