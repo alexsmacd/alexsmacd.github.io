@@ -5,17 +5,17 @@
 
 /* Custom Grid Styles */
 .grid-container {
-    display: grid;
-    grid:
-    'grid-item grid-item'
-    'grid-item grid-item';
-    grid-auto-columns: calc(50% - 10px);
-    grid-auto-flow: column;
-    grid-gap: 10px 10px;
+    display: block;
 }
 
 .grid-item,
 .grid-item img,
 .grid-item h3 {
     text-align: center;
+}
+
+.grid-item {
+    width: calc(50% - 10px);
+    float: left;
+    margin-right: 10px;
 }
