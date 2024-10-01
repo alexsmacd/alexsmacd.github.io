@@ -7,7 +7,7 @@ permalink: /plugins/
 {% for plugin in site.plugins %}
 <div class="grid-item">
 <a href="{{ plugin.link }}" target="_blank"><img src="{{ plugin.icon }}"></a>
-<h3><a href="{{ plugin.link }}" target="_blank">{{ plugin.name }}</a></h3>
+<h5><a href="{{ plugin.link }}" target="_blank">{{ plugin.name }}</a></h5>
 </div>
 {% endfor %}
 </div>
